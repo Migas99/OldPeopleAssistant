@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">CMU APP 2019</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="switchToMenu">Go to App Menu</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+
+    <string name="medicine_row_name">Vicodin</string>
+    <string name="medicine_row_description_label">Descriçao: </string>
+    <string name="medicine_row_description">Blah Blah Blah</string>
+    <string name="medicine_row_amount_label">Quantidade: </string>
+    <string name="medicine_row_amount">0.00</string>
+
+    <string name="reminder_add_dialog_medicine_text">Selecionar Medicamento: </string>
+    <string name="reminder_add_dialog_time_text">Definir Alarme: </string>
+    <string name="medicine_name_add_dialog_text">Nome: </string>
+    <string name="medicine_description_add_dialog_text">Descrição: </string>
+    <string name="medicine_amount_add_dialog_text">Quantidade: </string>
+
+
+    <string name="history_medicine_text">Medicamento: </string>
+    <string name="history_date_text">Data: </string>
+    <string name="history_time_text">Tempo: </string>
+    <string name="history_location_text">Local: </string>
+    <string name="history_medicine_img">Medicine Image</string>
+
+    <string name="medicine_delete_dialog_text">De certeza que quer apagar este medicamento? Todos os alarmes associados também vao ser eliminados.</string>
+
+    <string name="medicine_pill_management_remove_button">-</string>
+    <string name="medicine_pill_management_amount_text">0</string>
+    <string name="medicine_pill_management_add_button">+</string>
+
+    <string name="reminder_list_row_medicine_text">Medicamento: </string>
+    <string name="reminder_list_row_time_interval_text">Tempo: </string>
+    <string name="reminder_list_row_alarm_img">Alarm Image</string>
+    <string name="reminder_list_row_options_img">Options Image</string>
+
+    <string name="reminder_add_dialog_repeat_value">Repetir intervalo em horas:</string>
+
+    <string name="reminder_list_row_repeat_time_interval_text">Repetir intervalo: </string>
+    <string name="title_activity_settings">Definições</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensagens</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFA000</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+
+
+    <color name="dark_blue">#FF31429D</color>
+    <color name="blue">#FF3E52AD</color>
+    <color name="red">#FFAD3E3E</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="delete_button">#FA0000</color>
+</resources>

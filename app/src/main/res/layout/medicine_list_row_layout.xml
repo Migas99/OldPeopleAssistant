@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/medicine_row_margins"
+    android:layout_marginBottom="@dimen/medicine_row_margins"
+    android:layout_marginLeft="@dimen/medicine_row_margins"
+    android:layout_marginRight="@dimen/medicine_row_margins"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/medicine_img_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/medicine_row_margins"
+        android:layout_marginRight="@dimen/medicine_row_margins"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/medicine_img"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/medicine_row_image" />
+
+        <LinearLayout
+            android:id="@+id/medicine_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/medicine_row_margins"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/medicine_row_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_row_name"
+                android:textSize="@dimen/medicine_row_name_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medicine_row_description_label"
+                    android:textSize="@dimen/medicine_row_text_size" />
+
+                <TextView
+                    android:id="@+id/medicine_row_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medicine_row_description"
+                    android:textSize="@dimen/medicine_row_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medicine_row_amount_label" />
+
+                <TextView
+                    android:id="@+id/medicine_row_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medicine_row_amount"
+                    android:textSize="@dimen/medicine_row_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/medicine_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/medicine_row_margins"
+        android:layout_marginRight="@dimen/medicine_row_margins"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:textSize="@dimen/medicine_row_button_text_size" />
+
+
+</LinearLayout>

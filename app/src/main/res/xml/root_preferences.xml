@@ -1,0 +1,9 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Número de emergência"
+        android:key="emergencyNumber"
+        android:summary="Defina aqui o seu número de emergência!" />
+
+</PreferenceScreen>

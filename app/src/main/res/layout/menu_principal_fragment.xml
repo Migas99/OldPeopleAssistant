@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingEnd="15dp"
+    android:paddingRight="15dp"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Acompanhamento a pessoas vulneráveis"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_menu_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lista de Medicamentos"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_menu_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lista de alarmes"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_menu_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Historico de consumo de medicamentos"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/PharmaciesInMyZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Farmácias do local onde se encontra"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/Pharmacies"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Farmácias em"/>
+
+        <EditText
+            android:id="@+id/inputCity"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="Insira aqui a cidade"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/entrarJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jogos didáticos"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_menu_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Conta"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

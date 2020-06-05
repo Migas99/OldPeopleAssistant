@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41555852222",
+    "firebase_url": "https://quicktest-367c1.firebaseio.com",
+    "project_id": "quicktest-367c1",
+    "storage_bucket": "quicktest-367c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41555852222:android:ab52cc96b92d841487d7ef",
+        "android_client_info": {
+          "package_name": "pt.ipp.estg.pharmacies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41555852222-iaqmmkuis9l58jrs4j04btkcdna1i87j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipp.estg.pharmacies",
+            "certificate_hash": "5890099ddcbec9948e42088d2fd72bbaf7282859"
+          }
+        },
+        {
+          "client_id": "41555852222-ords6g33hs3j6ojgpnpcj23pnhqa1u3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDywdQAVaNd-LQX3f_j1SICzEnynVppOKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41555852222-ords6g33hs3j6ojgpnpcj23pnhqa1u3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
